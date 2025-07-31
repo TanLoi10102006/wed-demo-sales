@@ -1,0 +1,175 @@
+*{
+    
+
+}
+/* menu của trang  */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-y: scroll;
+    /* background-image:url('background.webp');
+    background-size: cover; /* Phủ toàn bộ màn hình */
+    /* background-position: center;
+    background-repeat: no-repeat; */ 
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;  
+   
+   
+    
+   
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: blue;
+}
+
+.title{
+    text-align: center;
+}
+/* sản phẩm nam  */
+.title-one{
+    margin-top: 40px; /* Đẩy nội dung xuống dưới thanh navbar */
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px ;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 8px;
+    background: #f0f0f0;
+}
+.product .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+/* sản phẩm nữ */
+
+.product-container-girl{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.women-products{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.women-products img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #f0f0f0;
+}
+.women-products .price{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+
+}
+/* balo-túi */
+.product-container-backpack{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+}
+.backpack{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.backpack img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #f0f0f0;
+
+}
+.backpack .price{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+
+}
+/* túi */
+.product-container-bag {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+
+}
+.bag{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.bag img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #f0f0f0;
+
+}
+.bag .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+
+}
